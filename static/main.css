@@ -60,8 +60,12 @@ p {
 a {
   color: #21313C !important;
 }
+.hero{
+    margin-top: 50px;
+}
 #this-is-me{
-  margin: 10px;
+  margin: auto;
+  text-align: vertical;
 }
 #profile img {
   width: 288px;
@@ -76,6 +80,7 @@ a {
 }
 #bullet-points{
     color: #3a3a3a;
+    font-size: 1.25em;
 }
 #bullet-points a {
     color: #3a3a3a;
@@ -94,6 +99,9 @@ a {
   box-shadow: -3px 3px 0px #9E9EFF;
   border-radius: 5px;
   }
+ .desc{
+     margin-top: 60px;
+ }
 .button {
     padding: 2px 22px;
     font-size: 1rem;
