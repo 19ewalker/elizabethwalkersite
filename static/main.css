@@ -10,13 +10,13 @@ body {
 }
 h1 {
   font-family: 'Raleway', sans-serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700 !important;
 }
 
 h2 {
   font-family: 'Raleway', sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 700 !important;
   line-height: 48px;
@@ -39,7 +39,7 @@ h4 {
 
 h5 {
   font-family: 'Raleway', sans-serif;
-  font-size: 2.5rem !important;
+  font-size: 1rem !important;
   font-style: normal;
   font-weight: 400;
   line-height: 3rem;
@@ -243,3 +243,11 @@ footer {
 .fa:hover {
     opacity: 1.0;
     color: black;
+}
+#writing-header{
+    margin: 20px 80px;
+}
+#writing-desc{
+    margin: 40px;
+
+}
