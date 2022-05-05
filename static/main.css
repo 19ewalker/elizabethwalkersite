@@ -83,7 +83,7 @@ a {
 }
 
 #profile img:hover {
-  transform: translateY(20px);
+  transform: translateY(-20px);
 }
 #bullet-points{
     color: #3a3a3a;
@@ -259,9 +259,20 @@ footer {
 }
 .genre{
     display: flex;
-    justify-content: right;
+    justify-content: center;
+    transition: 250ms;
+}
+.genre h3:hover {
+  transform: translateY(20px);
 }
 .section{
     margin-bottom: 20px;
     margin-left: 10px;
+}
+.links{
+    background-color: #fafafa;
+    box-shadow: 3px 3px 0px #9E9EFF;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
