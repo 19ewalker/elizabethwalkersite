@@ -259,11 +259,8 @@ footer {
 }
 .genre{
     display: flex;
-    justify-content: center;
-    transition: 250ms;
-}
-.genre h3:hover {
-  transform: translateY(20px);
+    justify-content: right;
+    margin-right: 30px;
 }
 .section{
     margin-bottom: 20px;
@@ -290,4 +287,7 @@ footer {
 }
 .digital-text{
     width: 100%;
+}
+.project-title{
+    margin-bottom: 20px;
 }
