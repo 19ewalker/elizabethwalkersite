@@ -122,7 +122,6 @@ a {
     border-radius: 5px;
     }
   #iam-carousel{
-      width: 36vw;
       margin-bottom: 8px;
   }
   .headers {
@@ -213,7 +212,7 @@ a {
 }
 
 .project-text {
-    width: 33%;
+    width: 40%;
 }
 
 .project-img {
