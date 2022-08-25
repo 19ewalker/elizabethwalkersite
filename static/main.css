@@ -93,18 +93,17 @@ a {
     color: #3a3a3a;
     text-decoration: none;
     font-weight: bold;
+    margin: 5px;
 }
 #learn-more a{
   padding: 2px 22px;
-  font-size: 1rem;
-
+  font-size: 1.25rem;
   width: 144px;
   height: 38px;
-
   color: #21313C;
   background: #CCCCFF;
   box-shadow: -3px 3px 0px #9E9EFF;
-  border-radius: 5px;
+  border-radius: 10px;
   }
  .desc{
      margin-top: 60px;
