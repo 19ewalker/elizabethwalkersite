@@ -94,7 +94,7 @@ a {
     text-decoration: none;
     font-weight: bold;
 }
-#learn-more button {
+#learn-more a{
   padding: 2px 22px;
   font-size: 1rem;
 
@@ -122,11 +122,27 @@ a {
     border-radius: 5px;
     }
   #iam-carousel{
-      margin-bottom: 8px;
+      margin-bottom: 16px;
   }
-  .headers {
-  display: flex;
-  flex-direction: row;
+  #about-img img{
+      margin-top:48px;
+      margin-left: 5vw;
+      width: 30vw;
+      border-radius: 25px;
+      filter: drop-shadow(0px 10px 40px rgba(33, 49, 60, 0.2));
+}
+.highlight-link{
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0px 1px;
+    transition: all .3s ease-in-out;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: inset 0 -2px 0 #9E9EFF;
+}
+#about-desc h1{
+    margin-bottom: 16px;
 }
 
 .headers h1 {
