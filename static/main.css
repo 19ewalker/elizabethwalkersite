@@ -5,8 +5,7 @@ html {
   margin: 20px;
 }
 body {
-  font-family: 'Lora', serif;
-  color: #21313C;
+  font-family: 'Raleway', serif;
 }
 h1 {
   font-family: 'Raleway', sans-serif;
@@ -75,7 +74,7 @@ a {
   text-align: vertical;
 }
 #profile img {
-  width: 400px;
+  width: 60%;
   margin: auto;
   display: block;
   transition: transform 250ms;
