@@ -53,7 +53,6 @@ p {
   font-size: 18px;
   line-height: 28px;
   margin: 0 0 16px 0 !important;
-  padding: 0;
 }
 li {
   font-family: 'Lora', serif;
@@ -61,20 +60,16 @@ li {
   font-size: 18px;
   line-height: 20px;
   margin: 0 0 16px 0 !important;
-  padding: 0;
 }
 a {
   color: #21313C !important;
-}
-.hero{
-    margin-top: 50px;
 }
 #this-is-me{
   margin: auto;
   text-align: vertical;
 }
 #profile img {
-  width: 60%;
+  width: 70%;
   margin: auto;
   display: block;
   transition: transform 250ms;
@@ -145,76 +140,18 @@ a {
 }
 
 .headers h1 {
-  width: 480px;
   padding: 20px;
   margin-left: 80px;
 }
-.headers p {
-  width: 480px;
-  margin-right: 135px !important;
-}
-  #highlights {
+#highlights {
     position: relative;
     top: 64px;
-    padding-top: 15vh;
+    margin: 40px;
     width: 100%;
-    margin-bottom: 12vh;
-  }
-  .blank {
+}
+.blank {
   width: 33%;
 }
-
-/******* SCROLL *********/
-.scroll {
-  background-color: none;
-  position: relative;
-  margin-top: -96px;
-}
-.scroll:before,
-.scroll:after {
-	content: '';
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width:100%;
-	width: 12px;
-	height: 12px;
-	transform: rotate(45deg);
-	border-bottom: 4px solid #21313C;
-	border-right: 4px solid #21313C;
-}
-
-.scroll:before {
-	animation: down-arrow-before 2.6s cubic-bezier(0.77, 0, 0.175, 1) infinite;
-}
-
-.scroll:after {
-	animation: down-arrow-after 2.6s cubic-bezier(0.77, 0, 0.175, 1) infinite;
-}
-
-@keyframes down-arrow-before {
-	50% {
-		transform: rotate(45deg) translate(70%, 70%);
-	}
-	100% {
-		transform: rotate(45deg) translate(70%, 70%);
-	}
-}
-
-@keyframes down-arrow-after {
-	50% {
-		transform: rotate(45deg) translate(110%, 110%);
-		opacity: 0;
-	}
-	51% {
-		transform: rotate(45deg) translate(-130%, -130%);
-	}
-	100% {
-		transform: rotate(45deg) translate(-70%, -70%);
-		opacity: 1;
-	}
-}
-
 /******* PROJECTS ********/
 .project {
   width: 100%;
@@ -227,7 +164,7 @@ a {
 }
 
 .project-text {
-    width: 40%;
+    width: 80%;
 }
 
 .project-img {
@@ -251,11 +188,11 @@ footer {
   text-align: center;
   width: 100%;
   background-color: none;
-  padding-bottom: 5vh;
+  margin-bottom: 5vh;
 }
 
 .fa {
-  padding: 15px;
+  margin: 15px;
   width: 80px;
   text-decoration: none;
   color: #21313C;
@@ -284,8 +221,8 @@ footer {
     background-color: #f5f5f5;
     box-shadow: 3px 3px 0px #9E9EFF;
     border-radius: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .project-digital {
   width: 400px;
