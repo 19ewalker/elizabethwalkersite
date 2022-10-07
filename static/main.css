@@ -118,10 +118,8 @@ a {
       margin-bottom: 16px;
   }
   #about-img img{
-      margin-top:48px;
-      margin-left: 5vw;
-      margin-right: 8vw;
-      width: 26vw;
+      margin-left: 40px;
+      width: 90%;
       border-radius: 25px;
       filter: drop-shadow(0px 10px 40px rgba(33, 49, 60, 0.3));
 }
@@ -172,7 +170,6 @@ a {
 .project-img:hover {
   transform: translateY(-20px);
 }
-
 footer {
   background-color: none;
   color: #21313C;
@@ -204,16 +201,14 @@ footer {
     justify-content: right;
     margin-right: 30px;
 }
-.section{
-    margin-bottom: 20px;
-    margin-left: 10px;
-}
+
 .links{
     background-color: #f5f5f5;
     box-shadow: 3px 3px 0px #9E9EFF;
-    border-radius: 25px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 15px;
+    margin-bottom: 20px;
 }
 .project-digital {
   width: 400px;
