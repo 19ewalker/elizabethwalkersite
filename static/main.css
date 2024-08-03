@@ -24,29 +24,6 @@ h2 {
   margin: 0.5rem 0;
 }
 
-h3 {
-  font-family: "Raleway", sans-serif;
-}
-
-h4 {
-  font-family: "Raleway", sans-serif;
-  font-weight: 600 !important;
-  font-size: 1.25rem;
-  margin: 0.5rem 0;
-  line-height: 165%;
-}
-
-h5 {
-  font-family: "Raleway", sans-serif;
-  font-size: 1rem !important;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 3rem;
-  letter-spacing: 0em;
-  text-align: left;
-  margin: 0 0 0.5rem 0;
-}
-
 p {
   font-family: "Lora", serif;
   color: #21313c;
@@ -147,9 +124,6 @@ a {
   padding-top: 50px;
   padding-right: 30px;
 }
-.blank {
-  width: 33%;
-}
 /******* experience ********/
 .project {
   margin-top: 40px;
@@ -189,47 +163,6 @@ footer {
 .fa:hover {
   opacity: 1;
   color: black;
-}
-#writing-header {
-  margin: 20px 80px;
-}
-#writing-desc {
-  margin: 40px;
-}
-.genre {
-  display: flex;
-  justify-content: right;
-  margin-right: 30px;
-}
-
-.links {
-  background-color: #f5f5f5;
-  box-shadow: 3px 3px 0px #9e9eff;
-  border-radius: 15px;
-  margin-top: 20px;
-  padding: 15px;
-  margin-bottom: 20px;
-}
-.links li {
-  line-height: 150%;
-}
-.project-digital {
-  /* width: 400px;
-  height: 240px;
-  margin-right: 80px;
-  margin-top: 60px; */
-  transition: 250ms;
-  filter: drop-shadow(0px 10px 40px rgba(33, 49, 60, 0.2));
-  border-radius: 25px;
-}
-.project-img:hover {
-  transform: translateY(-20px);
-}
-.digital-text {
-  width: 100%;
-}
-.project-title {
-  margin-bottom: 20px;
 }
 .years {
   color: #808080;
